@@ -1,42 +1,23 @@
-é¡¹ç›®ç¬¬ä¸€æ¬¡æäº¤
-1.åˆå§‹åŒ–æœ¬åœ°ä»“åº“
-git init
-2.å…¨éƒ¨æäº¤æœ¬åœ°ä»“åº“
+touch README.md //ĞÂ½¨ËµÃ÷ÎÄ¼ş
+git init //ÔÚµ±Ç°ÏîÄ¿Ä¿Â¼ÖĞÉú³É±¾µØgit¹ÜÀí,²¢½¨Á¢Ò»¸öÒş²Ø.gitÄ¿Â¼
+git add . //Ìí¼Óµ±Ç°Ä¿Â¼ÖĞµÄËùÓĞÎÄ¼şµ½Ë÷Òı
+git commit -m "first commit" //Ìá½»µ½±¾µØÔ´Âë¿â£¬²¢¸½¼ÓÌá½»×¢ÊÍ
+git remote add origin https://github.com/chape/test.git //Ìí¼Óµ½Ô¶³ÌÏîÄ¿£¬±ğÃûÎªorigin
+git push -u origin master //°Ñ±¾µØÔ´Âë¿âpushµ½github ±ğÃûÎªoriginµÄÔ¶³ÌÏîÄ¿ÖĞ£¬È·ÈÏÌá½»
+
+¸üĞÂ´úÂë
+cd /d/TVCloud
 git add .
+git commit -m "update test" //¼ì²âÎÄ¼ş¸Ä¶¯²¢¸½¼ÓÌá½»×¢ÊÍ
+git push -u origin master //Ìá½»ĞŞ¸Äµ½ÏîÄ¿Ö÷Ïß
 
-(æŸ¥çœ‹è‡ªå·±æäº¤äº†ä»€ä¹ˆ)
-git status
-3.æŒ‡å‘åˆ°è¿œç¨‹ä»“åº“ (ç¬¬ä¸€æ¬¡å¿…é¡»çš„) 
-git remote add origin https://github.com/SNCTTOO/newGi.git
-4.æäº¤åˆ°è¿œç¨‹ä»“åº“
-git push origin master
-
-.gitignore ä½œç”¨ å¿½ç•¥ä¸è¦æäº¤
-
-
-----------------------------------------
-
-ç¬¬äºŒæ¬¡æäº¤ è·Ÿç¬¬ä¸€æ¬¡æäº¤ä¸€æ · å°‘äº†æŒ‡å‘è¿œç¨‹ä»“åº“è¿™ä¸€æ­¥
-git pull origin master //ä»Githubä¸Špullåˆ°æœ¬åœ°æºç åº“
-åˆ†æ”¯
-ä¸€ä¸ªé¡¹ç›®å¤šäººå¼€å‘ å¼€å‘ä¸åŒæ¨¡å—çš„
-branch åˆ†æ”¯
-
-æŸ¥çœ‹æœ¬åœ°åˆ†æ”¯ (master--ä¸»åˆ†æ”¯)
-
-åœ¨æœ¬åœ°åˆ›å»ºåˆ†æ”¯
-git branch develop
-
-åˆ‡æ¢åˆ†æ”¯
-git checkout åˆ†æ”¯å
-
-----------------------------------------
-
-åˆå¹¶åˆ†æ”¯
-
-
-01.å›åˆ°æœ¬åœ°ä¸»åˆ†æ”¯
-git checkout master
-
-02.åˆå¹¶åˆ†æ”¯
-git merge åˆ†æ”¯å
+github³£ÓÃÃüÁî
+git push origin master //°Ñ±¾µØÔ´Âë¿âpushµ½GithubÉÏ
+git pull origin master //´ÓGithubÉÏpullµ½±¾µØÔ´Âë¿â
+git config --list //²é¿´ÅäÖÃĞÅÏ¢
+git status //²é¿´ÏîÄ¿×´Ì¬ĞÅÏ¢
+git branch //²é¿´ÏîÄ¿·ÖÖ§
+git checkout -b host//Ìí¼ÓÒ»¸öÃûÎªhostµÄ·ÖÖ§
+git checkout master //ÇĞ»»µ½Ö÷¸É
+git merge host //ºÏ²¢·ÖÖ§hostµ½Ö÷¸É
+git branch -d host //É¾³ı·ÖÖ§host
