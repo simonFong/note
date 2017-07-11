@@ -17,7 +17,7 @@ git push origin master
 ----------------------------------------
 
 第二次提交 跟第一次提交一样 少了指向远程仓库这一步
-
+git pull origin master //从Github上pull到本地源码库
 分支
 一个项目多人开发 开发不同模块的
 branch 分支
