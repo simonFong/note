@@ -54,11 +54,11 @@ border:3px solid red;
 
 - 伪类选择器  为某个标签添加伪类选择器   选择器:属性{}  e.g.  xxx:focus{}
 
-  ![](css\img/12.png)
+  ![](https://github.com/simonFong/note/blob/master/web/img/12.png?raw=true)
 
 - 伪元素选择器  添加伪元素选择器,  选择器:属性{}  e.g.   xxx:first-letter{}
 
-  ![](css\img/13.png)
+  ![](https://github.com/simonFong/note/blob/master/web/img/13.png?raw=true)
 
 
 
